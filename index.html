@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./bg-img.css">
 </head>
 <body>
-    
+    <div class="bg1">
+        <div class="flex justify-around items-center ">
+            <img src="./foto/navbar-brand.png" alt="">
+            <div class="flex gap-5 text-white">
+               <p>Home</p>
+               <p>Product</p>
+               <p>Pricing</p>
+               <p>Contact</p>
+            </div>
+            <button class="w-[200px] h-[50px] bg-[#23A6F0] text-white rounded-[10px]">Get Quote Now</button>
+        </div>
+        <div class="flex justify-around mt-25">
+        <div class="mt-25">
+            <h1 class="text-6xl text-white mb-6"> <b> Meet the Best <br> Hospital </b></h1>
+            <p class="text-white mb-5">We know how large objects will act, <br>
+but things on a small scale.</p>
+<button class="text-white w-[200px] h-[50px] bg-[#23A6F0] rounded-3xl">Get Quote Now</button>
+<button class="text-white w-[150px] h-[50px] border border-white rounded-3xl">Learn More</button>
+        </div>
+        <form class="w-[300px] h-[500px] bg-white p-5 rounded-2xl">
+            <h1 class="text-center text-2xl"><b>Book Appointment</b></h1>
+            <div class="ml-6">
+            <label class="mt-5" for="name">Name *</label> <br>
+            <input class="w-[200px] h-10 border-2 rounded-[7px] mt-2 mb-2 border-[#DDDDDD] bg-[#F9F9F9]" id="name" type="text" placeholder="Full Name * "> <br>
+            <label for="email">Email address *</label> <br>
+            <input class="w-[200px] h-10 border-2 rounded-[7px] mt-2 mb-2 border-[#DDDDDD] bg-[#F9F9F9]" id="email" type="email" placeholder="example@gmail.com  "> <br>
+            <label for="sl">Departement *</label> <br>
+            <select class="w-[200px] h-10 border-2 rounded-[7px] mt-2 mb-2 border-[#DDDDDD] bg-[#F9F9F9]"> <br>
+               <option value="">Please Select</option> <br>
+               <option value="">Please Select</option> <br>
+               <option value="">Please Select</option> <br>
+            </select>
+            <legend for="time">Time *</legend>
+            <select class="w-[200px] h-10 border-2 rounded-[7px] mt-2 mb-2 border-[#DDDDDD] bg-[#F9F9F9]">
+            <option value="">4:00 Available</option>
+            <option value="">4:00 Available</option>
+            <option value="">4:00 Available</option>
+            </select>
+            <button class="w-[200px] h-[50px] text-white bg-[#23A6F0] rounded-2xl mt-5">Book Appointment</button>
+            </div>
+        </form>
+        </div>
+    </div>
 </body>
 </html>
